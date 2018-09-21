@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pixel</title>
+<link rel="stylesheet" type="text/css" href="resources/css/lopppu.css">
+	
+</head>
+<body>
+
+	<div id="container">
+		<div class="pageHead"><img src="resources/img/lionpng.png" width="70" height="70"> Unlock Your Potential</div><!--end pageHead-->
+		<div class="menu"><ul>
+                <li><a href="index.html">
+                                <button>Home</button></a></li>
+   <li><a href="lopppu.html">
+        <button>Books</button></a></li>
+    <li id="dropd"><a href="lone.html" class="myLink"><button id="dropb">Developer</button></a></li>
+    <li><a href="none.html">
+            <button>Photos</button></a></li>
+    <li><a href="none.html">
+            <button>Videos</button></a></li>
+    <li><a href="joe.html">
+            <button>
+                    Game</button></a></li>
+    <li><a href="kosyapps.html"><button>Applications</button> </a></li>
+    <li><a href="about.html">
+            <button>About us</button></a></li>
+    <li id="redirect"><a href="www.buganow.com" target="_blank">
+            <button>Buganow</button></a></li>
+    <li><a href="login.html">
+            <button>Login</button></a></li>
+                      
+                     </div><!--end menu-->
+	<div></div>
+
+
+</div>
+	<script src="resources/lionjvrpd/Pixel.js"></script>
+<footer style="margin: 200px 0 0 0"> Lion Inc 2018</footer>
+<script>
+	var pathname = window. location.pathname; console. log(pathname);
+var myLink = document.getElementsByTagName("a");
+ 
+function elt(name, attrs, ...children) {
+let dom = document.createElement(name);
+for (let attr of Object.keys(attrs)) {
+dom.setAttribute(attr, attrs[attr]);
+}
+for (let child of children) {
+if (typeof child != "string") dom.appendChild(child);
+else dom.appendChild(document.createTextNode(child));
+}
+return dom;
+}
+
+for(let link of myLink)
+if (link.pathname == pathname){
+link.style.borderBottom= "2px solid rgb(216, 92, 20)";
+console.log(link)};
+
+</script>
+</body>
+</html>
