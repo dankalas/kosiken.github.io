@@ -1,11 +1,15 @@
 .pageHead{font-size: 30pt; width: 100%; margin-bottom: 5px;  padding: 10px; 
-text-align: center;
+
 	min-width: 1800px;
 	background-color: none;
 	margin-bottom: 1px;
 	background-image: url('/resources/img/lipid.jpg');
 }
-
+.pageHead img{
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 select{
 	background-color: #000
 }
