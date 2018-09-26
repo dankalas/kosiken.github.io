@@ -186,16 +186,18 @@ margin: 0 0px 5px 40px;
 
 font-size: 15pt; }
 fieldset{
-	width:1050px;
+
+	width:450px;
 	margin-left: 300px;
 	margin-top: 50px;
 border: none;
-	height: 500px;
-	font-size:  20pt;
+	height: 350px;
+	font-size:  15pt;
 	position: fixed;
 	
-	
-	color: #ffffff;
+	font-family: "Tahoma";
+	color: ##ffffff;
+	background-color: black;
 }
 #g{
 	margin-left: 100px;
@@ -207,26 +209,33 @@ border: none;
 span{
 	font-size: 15pt;
 }
+
 input{
-	padding-bottom: 15px;
-	border-radius: 3px;
+	padding: 5px;
+	
 	background-color: white;
 	width: 400px;
 font-size: 15pt;
-box-shadow: #000;
+
 color: #000;
-border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	padding: 5px;
-margin: 2px; opacity: 0.7;
-}
 
-#u{
-	margin-top: 35px;
-	padding: 5px;
+margin-top:10px;
 	
-
+margin-bottom: 10px;
+ 
 }
+input.u {
+	width: 90px;
+	background-color: black;
+	color: white;
+	height: 40px;
+	font-size: 10pt;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
 
 #op input{
 	padding: 5px;
