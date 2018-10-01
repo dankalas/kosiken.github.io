@@ -145,7 +145,8 @@ border: none;
 	background-color: white;
 	opacity: 0.85;
 }
-
+fieldset:focus{
+opacity: 1.0;}
 #home_footer {
 	clear: left;
 clear: top;
